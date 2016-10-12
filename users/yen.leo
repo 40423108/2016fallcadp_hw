@@ -18,7 +18,7 @@
 <v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
-<v t="amd.20151215180106.1"><vh>設定與開發</vh>
+<v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
 <v t="amd.20161004083800.1" a="E"><vh>html</vh>
 <v t="amd.20161004083800.2"><vh>head</vh></v>
@@ -98,7 +98,9 @@
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
-<v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
+<v t="amd.20160727120222.1"><vh>@edit 20160915.md</vh></v>
+<v t="leo.20161012215322.1"><vh>@edit 20160922.md</vh></v>
+<v t="leo.20161012215324.1"><vh>@edit 20160929.md</vh></v>
 </v>
 </v>
 </v>
@@ -108,6 +110,20 @@
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
+<v t="leo.20161012215215.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161012215215.2"><vh>Recovered node "封面投影片" from @clean index.html</vh>
+<v t="leo.20161012215215.3"><vh>old:封面投影片</vh></v>
+<v t="leo.20161012215215.4"><vh>new:封面投影片</vh></v>
+</v>
+<v t="leo.20161012215215.5"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161012215215.6"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161012215215.7"><vh>new:封面投影片內容</vh></v>
+</v>
+<v t="leo.20161012215215.8"><vh>Recovered node "HTML 投影片 (標題)" from @clean index.html</vh>
+<v t="leo.20161012215215.9"><vh>old:HTML 投影片 (標題)</vh></v>
+<v t="leo.20161012215215.10"><vh>new:HTML 投影片 (標題)</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -340,19 +356,7 @@ apply broader style changes, like switching the page background.
 &lt;/div&gt;
 
 </t>
-<t tx="amd.20161004083800.8">&lt;section&gt;
-    &lt;h1&gt;2016Fall CADPA 課程&lt;/h1&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
-    &lt;p&gt;
-    &lt;small&gt;
-    Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / 
-    &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
-    &lt;/small&gt;
-    &lt;/p&gt;
-    
-    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
-&lt;/section&gt;
-</t>
+<t tx="amd.20161004083800.8"></t>
 <t tx="amd.20161004085439.1">&lt;section&gt;
     &lt;h2&gt;Vertical Slides&lt;/h2&gt;
     &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
@@ -451,13 +455,11 @@ make.start()
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
 						
 </t>
 <t tx="amd.20161004095719.2"># 2016Fall CADPA 課程
 
-### THE HTML PRESENTATION FRAMEWORK
+### 40423108江心平
 
 &lt;small&gt;
 Created by [Hakim El Hattab](http://hakim.se)
@@ -741,5 +743,99 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161012215215.1"></t>
+<t tx="leo.20161012215215.10"></t>
+<t tx="leo.20161012215215.2">(uncached) amd.20161004095719.1
+Diff...
+  &lt;section data-markdown&gt;
+      &lt;script type="text/template"&gt;
+  @others
+      &lt;/script&gt;
+  &lt;/section&gt;
++ 
++ 
+  						
+</t>
+<t tx="leo.20161012215215.3">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161012215215.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+						
+</t>
+<t tx="leo.20161012215215.5">(uncached) amd.20161004095719.2
+Diff...
+- # 2016Fall CADPA 課程40423108江心平
+?                    -----------
++ # 2016Fall CADPA 課程
+  
+  ### THE HTML PRESENTATION FRAMEWORK
+  
+  &lt;small&gt;
+  Created by [Hakim El Hattab](http://hakim.se)
+  [@hakimel](http://twitter.com/hakimel)
+  &lt;/small&gt;
+  
+  [blog](blog/index.html)
+</t>
+<t tx="leo.20161012215215.6"># 2016Fall CADPA 課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
+<t tx="leo.20161012215215.7"># 2016Fall CADPA 課程40423108江心平
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
+<t tx="leo.20161012215215.8">(uncached) amd.20161004083800.8
+Diff...
++ &lt;section&gt;
++     &lt;h1&gt;2016Fall CADPA 課程&lt;/h1&gt;
++     &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
++     &lt;p&gt;
++     &lt;small&gt;
++     Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / 
++     &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
++     &lt;/small&gt;
++     &lt;/p&gt;
++     
++     &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
++ &lt;/section&gt;
+</t>
+<t tx="leo.20161012215215.9">&lt;section&gt;
+    &lt;h1&gt;2016Fall CADPA 課程&lt;/h1&gt;
+    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;p&gt;
+    &lt;small&gt;
+    Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / 
+    &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+    &lt;/small&gt;
+    &lt;/p&gt;
+    
+    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+&lt;/section&gt;
+</t>
 </tnodes>
 </leo_file>
