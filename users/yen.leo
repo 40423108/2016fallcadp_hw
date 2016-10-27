@@ -97,10 +97,13 @@
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
-<v t="amd.20160727114506.1" a="E"><vh>201609</vh>
+<v t="amd.20160727114506.1"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160915.md</vh></v>
 <v t="leo.20161012215322.1"><vh>@edit 20160922.md</vh></v>
 <v t="leo.20161012215324.1"><vh>@edit 20160929.md</vh></v>
+</v>
+<v t="leo.20161027163916.1" a="E"><vh>201610</vh>
+<v t="leo.20161027163916.2"><vh>@edit 20161027.md</vh></v>
 </v>
 </v>
 </v>
@@ -837,5 +840,6 @@ Diff...
     &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
 &lt;/section&gt;
 </t>
+<t tx="leo.20161027163916.1"></t>
 </tnodes>
 </leo_file>
